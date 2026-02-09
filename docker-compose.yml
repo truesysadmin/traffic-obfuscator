@@ -1,0 +1,31 @@
+services:
+  noise-light:
+    build:
+      context: .
+      dockerfile: deploy/Dockerfile.light
+    restart: unless-stopped
+    volumes:
+      - ./targets.txt:/app/targets.txt:ro
+    environment:
+      - CONCURRENCY=2
+      - TZ=Europe/Madrid
+    logging:
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+  noise-heavy:
+    build:
+      context: .
+      dockerfile: deploy/Dockerfile.heavy
+    restart: unless-stopped
+    volumes:
+      - ./targets.txt:/app/targets.txt:ro
+    environment:
+      - HEADLESS=true
+      - TZ=Europe/Madrid
+    deploy:
+      resources:
+        limits:
+          cpus: '1.0'
+          memory: 1G

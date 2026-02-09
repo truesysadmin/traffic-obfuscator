@@ -1,0 +1,95 @@
+# --- Search & Utilities ---
+https://www.google.com
+https://www.bing.com
+https://duckduckgo.com
+https://www.yahoo.com
+https://weather.com
+
+# --- Tech & Dev ---
+https://github.com
+https://gitlab.com
+https://stackoverflow.com
+https://www.w3schools.com
+https://developer.mozilla.org
+https://pypi.org
+https://hub.docker.com
+https://www.python.org
+https://go.dev
+https://kubernetes.io
+https://www.digitalocean.com
+https://aws.amazon.com
+https://azure.microsoft.com
+https://cloud.google.com
+
+# --- News & Media ---
+https://www.bbc.com
+https://www.cnn.com
+https://www.nytimes.com
+https://www.reuters.com
+https://www.bloomberg.com
+https://www.theguardian.com
+https://www.forbes.com
+https://www.wired.com
+https://techcrunch.com
+https://arstechnica.com
+
+# --- Streaming & Social (High Bandwidth) ---
+https://www.youtube.com
+https://vimeo.com
+https://www.twitch.tv
+https://www.netflix.com
+https://www.spotify.com
+https://soundcloud.com
+https://www.reddit.com
+https://www.quora.com
+https://medium.com
+https://www.imdb.com
+https://www.wikipedia.org
+
+# --- E-Commerce ---
+https://www.amazon.com
+https://www.ebay.com
+https://www.walmart.com
+https://www.target.com
+https://www.etsy.com
+https://www.ikea.com
+
+# --- CDN & Infrastructure (Good for TLS masking) ---
+https://www.cloudflare.com
+https://www.akamai.com
+https://www.fastly.com
+https://wordpress.org
+https://jquery.com
+
+
+# --- Finance, Banking & Fintech ---
+https://www.paypal.com
+https://www.chase.com
+https://www.bankofamerica.com
+https://www.wellsfargo.com
+https://www.americanexpress.com
+https://www.stripe.com
+https://www.wise.com
+https://www.revolut.com
+https://www.mastercard.com
+https://www.visa.com
+
+# --- Crypto & Trading ---
+https://www.coinbase.com
+https://www.binance.com
+https://coinmarketcap.com
+https://www.coingecko.com
+https://www.tradingview.com
+https://www.kraken.com
+https://www.robinhood.com
+https://www.etoro.com
+
+# --- Market News & Analysis ---
+https://finance.yahoo.com
+https://www.investing.com
+https://www.bloomberg.com/markets
+https://www.cnbc.com/finance
+https://www.marketwatch.com
+https://www.ft.com
+https://www.wsj.com
+https://www.economist.com
