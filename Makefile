@@ -24,8 +24,7 @@ logs:
 
 install:
 	@echo "Installing systemd service..."
-	@sed "s|WorkingDirectory=.*|WorkingDirectory=$(PWD)|" deploy/traffic-noise.service > deploy/traffic-noise.service.tmp && mv deploy/traffic-noise.service.tmp deploy/traffic-noise.service
-	@sudo cp deploy/traffic-noise.service /etc/systemd/system/traffic-noise.service
+	@sed "s|WorkingDirectory=.*|WorkingDirectory=$(CURDIR)|" deploy/traffic-noise.service | sudo tee /etc/systemd/system/traffic-noise.service > /dev/null
 	@sudo systemctl daemon-reload
 	@sudo systemctl enable traffic-noise
 	@sudo systemctl start traffic-noise
