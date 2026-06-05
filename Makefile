@@ -23,6 +23,8 @@ logs:
 	docker compose logs -f
 
 install:
+	@echo "Building Docker images (this may take a while on first run)..."
+	@docker compose build
 	@echo "Installing systemd service..."
 	@sed "s|WorkingDirectory=.*|WorkingDirectory=$(CURDIR)|" deploy/traffic-noise.service | sudo tee /etc/systemd/system/traffic-noise.service > /dev/null
 	@sudo systemctl daemon-reload
